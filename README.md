@@ -60,7 +60,7 @@ Make sure the following are installed on your system:
 ##  Clone the Repository
 
 ```bash
-https://github.com/SRINIJA-PULLIPUDI/Build-Payment-Gateway-with-Multi-Method-Processing-and-Hosted-Checkout.git
+git clone https://github.com/SRINIJA-PULLIPUDI/Build-Payment-Gateway-with-Multi-Method-Processing-and-Hosted-Checkout.git
 cd Build-Payment-Gateway-with-Multi-Method-Processing-and-Hosted-Checkout
 ```
 
@@ -284,3 +284,4 @@ Click the Logout button to clear credentials and return to login page.
 ##  Conclusion
 
 This project demonstrates a **complete payment gateway workflow** with backend APIs, database persistence, hosted checkout, merchant dashboard, and Dockerized deployment.
+
