@@ -160,7 +160,7 @@ http://localhost:3001/?order_id=order_xxxxx
 
 #### Expected Result
 - Status → **processing**
-- After **1–2 seconds** → **success**
+- After **1–2 seconds** → **success** or **failed**
 
 ---
 
@@ -249,9 +249,9 @@ Click the Logout button to clear credentials and return to login page.
 
 ### Evaluation Note
 
-✔ Dashboard login uses merchant API credentials
-✔ No hardcoded frontend access
-✔ Aligned with real-world payment gateway behavior
+- Dashboard login uses merchant API credentials
+- No hardcoded frontend access
+- Aligned with real-world payment gateway behavior
 
 ---
 
@@ -284,4 +284,5 @@ Click the Logout button to clear credentials and return to login page.
 ##  Conclusion
 
 This project demonstrates a **complete payment gateway workflow** with backend APIs, database persistence, hosted checkout, merchant dashboard, and Dockerized deployment.
+
 
